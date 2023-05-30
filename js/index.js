@@ -65,7 +65,7 @@ function shareURL() {
 }
 
 function shareMessage() {
-    Kakao.share.sendScrap({
+    Kakao.Share.sendScrap({
         requestUrl: "https://astonishing-blancmange-5227ba.netlify.app",
     });
 }
